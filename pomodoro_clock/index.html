@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Pomodoro Clock</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="pomodoro_clock.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+	
+	<body>
+		<div class="container">
+			<div class="row">
+			<div class="col-sm-12 text-center">
+				<h1>Pomodoro Timer</h1>
+				</div>
+			</div>
+			<div id='hideMe'>
+			<div class="row">
+			<div class="col-sm-6 text-center">
+		<h1 id="title1">Session Time</h1>
+				
+		<a href="#" class="btn btn-primary" id="minus1">-</a>
+		<h2 id="sessionLength">25</h2>
+					<a href="#" class="btn btn-primary" id="add1">+</a>
+					
+			
+				</div>
+				
+				<div class="col-sm-6 text-center">
+		<h1 id="title2">Break Length</h1>
+		<a href="#" class="btn btn-primary" id="minus2">-</a>
+		<h2 id="breakLength">5</h2>
+		<a href="#" class="btn btn-primary" id="add2">+</a>
+				</div>
+			</div>
+			</div>
+			<div class="row">
+			<div class="col-sm-12 text-center">
+				<span id="display"></span>		
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-sm-12 text-center">
+		<button type="button" id="start" class="btn btn-lg">Start</button>
+		<button type="button" id="reset" class="btn btn-lg">Reset</button>
+				</div>
+				</div>
+				
+		
+		</div>	
+
+			
+			
+			
+		
+		<script src="pomodoro_clock.js"></script>
+	</body>
+</html>
